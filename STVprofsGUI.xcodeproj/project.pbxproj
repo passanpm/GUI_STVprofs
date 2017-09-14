@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F0FD241F69F8CA00B2129A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0FD231F69F8CA00B2129A /* AppDelegate.m */; };
+		46F0FD271F69F8CA00B2129A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0FD261F69F8CA00B2129A /* main.m */; };
+		46F0FD2A1F69F8CA00B2129A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0FD291F69F8CA00B2129A /* ViewController.m */; };
+		46F0FD2C1F69F8CA00B2129A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F0FD2B1F69F8CA00B2129A /* Assets.xcassets */; };
+		46F0FD2F1F69F8CA00B2129A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F0FD2D1F69F8CA00B2129A /* Main.storyboard */; };
+		46F0FD3A1F69F8CB00B2129A /* STVprofsGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0FD391F69F8CB00B2129A /* STVprofsGUITests.m */; };
+		46F0FD451F69F8CB00B2129A /* STVprofsGUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0FD441F69F8CB00B2129A /* STVprofsGUIUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F0FD361F69F8CB00B2129A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F0FD171F69F8CA00B2129A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F0FD1E1F69F8CA00B2129A;
+			remoteInfo = STVprofsGUI;
+		};
+		46F0FD411F69F8CB00B2129A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F0FD171F69F8CA00B2129A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F0FD1E1F69F8CA00B2129A;
+			remoteInfo = STVprofsGUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F0FD1F1F69F8CA00B2129A /* STVprofsGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STVprofsGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F0FD221F69F8CA00B2129A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46F0FD231F69F8CA00B2129A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46F0FD261F69F8CA00B2129A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46F0FD281F69F8CA00B2129A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46F0FD291F69F8CA00B2129A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46F0FD2B1F69F8CA00B2129A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F0FD2E1F69F8CA00B2129A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F0FD301F69F8CA00B2129A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F0FD351F69F8CB00B2129A /* STVprofsGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STVprofsGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F0FD391F69F8CB00B2129A /* STVprofsGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STVprofsGUITests.m; sourceTree = "<group>"; };
+		46F0FD3B1F69F8CB00B2129A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F0FD401F69F8CB00B2129A /* STVprofsGUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STVprofsGUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F0FD441F69F8CB00B2129A /* STVprofsGUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STVprofsGUIUITests.m; sourceTree = "<group>"; };
+		46F0FD461F69F8CB00B2129A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F0FD1C1F69F8CA00B2129A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F0FD321F69F8CB00B2129A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F0FD3D1F69F8CB00B2129A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F0FD161F69F8CA00B2129A = {
+			isa = PBXGroup;
+			children = (
+				46F0FD211F69F8CA00B2129A /* STVprofsGUI */,
+				46F0FD381F69F8CB00B2129A /* STVprofsGUITests */,
+				46F0FD431F69F8CB00B2129A /* STVprofsGUIUITests */,
+				46F0FD201F69F8CA00B2129A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F0FD201F69F8CA00B2129A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F0FD1F1F69F8CA00B2129A /* STVprofsGUI.app */,
+				46F0FD351F69F8CB00B2129A /* STVprofsGUITests.xctest */,
+				46F0FD401F69F8CB00B2129A /* STVprofsGUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F0FD211F69F8CA00B2129A /* STVprofsGUI */ = {
+			isa = PBXGroup;
+			children = (
+				46F0FD221F69F8CA00B2129A /* AppDelegate.h */,
+				46F0FD231F69F8CA00B2129A /* AppDelegate.m */,
+				46F0FD281F69F8CA00B2129A /* ViewController.h */,
+				46F0FD291F69F8CA00B2129A /* ViewController.m */,
+				46F0FD2B1F69F8CA00B2129A /* Assets.xcassets */,
+				46F0FD2D1F69F8CA00B2129A /* Main.storyboard */,
+				46F0FD301F69F8CA00B2129A /* Info.plist */,
+				46F0FD251F69F8CA00B2129A /* Supporting Files */,
+			);
+			path = STVprofsGUI;
+			sourceTree = "<group>";
+		};
+		46F0FD251F69F8CA00B2129A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F0FD261F69F8CA00B2129A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46F0FD381F69F8CB00B2129A /* STVprofsGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F0FD391F69F8CB00B2129A /* STVprofsGUITests.m */,
+				46F0FD3B1F69F8CB00B2129A /* Info.plist */,
+			);
+			path = STVprofsGUITests;
+			sourceTree = "<group>";
+		};
+		46F0FD431F69F8CB00B2129A /* STVprofsGUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F0FD441F69F8CB00B2129A /* STVprofsGUIUITests.m */,
+				46F0FD461F69F8CB00B2129A /* Info.plist */,
+			);
+			path = STVprofsGUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F0FD1E1F69F8CA00B2129A /* STVprofsGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F0FD491F69F8CB00B2129A /* Build configuration list for PBXNativeTarget "STVprofsGUI" */;
+			buildPhases = (
+				46F0FD1B1F69F8CA00B2129A /* Sources */,
+				46F0FD1C1F69F8CA00B2129A /* Frameworks */,
+				46F0FD1D1F69F8CA00B2129A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STVprofsGUI;
+			productName = STVprofsGUI;
+			productReference = 46F0FD1F1F69F8CA00B2129A /* STVprofsGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F0FD341F69F8CB00B2129A /* STVprofsGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F0FD4C1F69F8CB00B2129A /* Build configuration list for PBXNativeTarget "STVprofsGUITests" */;
+			buildPhases = (
+				46F0FD311F69F8CB00B2129A /* Sources */,
+				46F0FD321F69F8CB00B2129A /* Frameworks */,
+				46F0FD331F69F8CB00B2129A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F0FD371F69F8CB00B2129A /* PBXTargetDependency */,
+			);
+			name = STVprofsGUITests;
+			productName = STVprofsGUITests;
+			productReference = 46F0FD351F69F8CB00B2129A /* STVprofsGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46F0FD3F1F69F8CB00B2129A /* STVprofsGUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F0FD4F1F69F8CB00B2129A /* Build configuration list for PBXNativeTarget "STVprofsGUIUITests" */;
+			buildPhases = (
+				46F0FD3C1F69F8CB00B2129A /* Sources */,
+				46F0FD3D1F69F8CB00B2129A /* Frameworks */,
+				46F0FD3E1F69F8CB00B2129A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F0FD421F69F8CB00B2129A /* PBXTargetDependency */,
+			);
+			name = STVprofsGUIUITests;
+			productName = STVprofsGUIUITests;
+			productReference = 46F0FD401F69F8CB00B2129A /* STVprofsGUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F0FD171F69F8CA00B2129A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = PLUOS;
+				TargetAttributes = {
+					46F0FD1E1F69F8CA00B2129A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					46F0FD341F69F8CB00B2129A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46F0FD1E1F69F8CA00B2129A;
+					};
+					46F0FD3F1F69F8CB00B2129A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46F0FD1E1F69F8CA00B2129A;
+					};
+				};
+			};
+			buildConfigurationList = 46F0FD1A1F69F8CA00B2129A /* Build configuration list for PBXProject "STVprofsGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F0FD161F69F8CA00B2129A;
+			productRefGroup = 46F0FD201F69F8CA00B2129A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F0FD1E1F69F8CA00B2129A /* STVprofsGUI */,
+				46F0FD341F69F8CB00B2129A /* STVprofsGUITests */,
+				46F0FD3F1F69F8CB00B2129A /* STVprofsGUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F0FD1D1F69F8CA00B2129A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F0FD2C1F69F8CA00B2129A /* Assets.xcassets in Resources */,
+				46F0FD2F1F69F8CA00B2129A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F0FD331F69F8CB00B2129A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F0FD3E1F69F8CB00B2129A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F0FD1B1F69F8CA00B2129A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F0FD2A1F69F8CA00B2129A /* ViewController.m in Sources */,
+				46F0FD271F69F8CA00B2129A /* main.m in Sources */,
+				46F0FD241F69F8CA00B2129A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F0FD311F69F8CB00B2129A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F0FD3A1F69F8CB00B2129A /* STVprofsGUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F0FD3C1F69F8CB00B2129A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F0FD451F69F8CB00B2129A /* STVprofsGUIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F0FD371F69F8CB00B2129A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F0FD1E1F69F8CA00B2129A /* STVprofsGUI */;
+			targetProxy = 46F0FD361F69F8CB00B2129A /* PBXContainerItemProxy */;
+		};
+		46F0FD421F69F8CB00B2129A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F0FD1E1F69F8CA00B2129A /* STVprofsGUI */;
+			targetProxy = 46F0FD411F69F8CB00B2129A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F0FD2D1F69F8CA00B2129A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F0FD2E1F69F8CA00B2129A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F0FD471F69F8CB00B2129A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		46F0FD481F69F8CB00B2129A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46F0FD4A1F69F8CB00B2129A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = STVprofsGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PLUOS.STVprofsGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46F0FD4B1F69F8CB00B2129A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = STVprofsGUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PLUOS.STVprofsGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46F0FD4D1F69F8CB00B2129A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = STVprofsGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PLUOS.STVprofsGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STVprofsGUI.app/Contents/MacOS/STVprofsGUI";
+			};
+			name = Debug;
+		};
+		46F0FD4E1F69F8CB00B2129A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = STVprofsGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PLUOS.STVprofsGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STVprofsGUI.app/Contents/MacOS/STVprofsGUI";
+			};
+			name = Release;
+		};
+		46F0FD501F69F8CB00B2129A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = STVprofsGUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PLUOS.STVprofsGUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STVprofsGUI;
+			};
+			name = Debug;
+		};
+		46F0FD511F69F8CB00B2129A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = STVprofsGUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PLUOS.STVprofsGUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STVprofsGUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F0FD1A1F69F8CA00B2129A /* Build configuration list for PBXProject "STVprofsGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F0FD471F69F8CB00B2129A /* Debug */,
+				46F0FD481F69F8CB00B2129A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F0FD491F69F8CB00B2129A /* Build configuration list for PBXNativeTarget "STVprofsGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F0FD4A1F69F8CB00B2129A /* Debug */,
+				46F0FD4B1F69F8CB00B2129A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F0FD4C1F69F8CB00B2129A /* Build configuration list for PBXNativeTarget "STVprofsGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F0FD4D1F69F8CB00B2129A /* Debug */,
+				46F0FD4E1F69F8CB00B2129A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F0FD4F1F69F8CB00B2129A /* Build configuration list for PBXNativeTarget "STVprofsGUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F0FD501F69F8CB00B2129A /* Debug */,
+				46F0FD511F69F8CB00B2129A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F0FD171F69F8CA00B2129A /* Project object */;
+}
